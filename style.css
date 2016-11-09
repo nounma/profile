@@ -41,7 +41,21 @@ a{
 a:hover{
   color: #FEB44B;
 }
+.avatar {
+  background-image:url("https://s-media-cache-ak0.pinimg.com/236x/fc/d6/cf/fcd6cf356cd25160ca8ad10fd94ba080.jpg");
+  width: 200px;
+  padding: 12px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  height: 300px;
+ }
 
+ .avatar:hover {
+  background-image:url("new.jpg");
+  padding: 12px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+ }
 .container {
   width: 500px;
   margin: 0 auto;
@@ -98,14 +112,17 @@ a:hover{
 
 
 }
-
-#picture {
+/*#picture {
   width: 200px;
   padding: 12px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
-
 }
+
+#picture:hover {
+  opacity: 0;
+
+}*/
 #movie {
   width: 280px;
   padding: 8px;
